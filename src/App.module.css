@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.SectionOne {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/tripImage3.JPG);
+    background-size: cover;
+    background-position: -0px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.MainImage {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  filter: brightness(70%);
+}
+
+.MainImageText {
+  top: 35%; 
+  left: 34%;
+  position: absolute; 
+  display: inline-block;
+}
+
+.MainImageText span {
+  font-size: 5vw;
+  font-weight: 700;
+  color: white;
+  filter: brightness(90%);
+}
+
+.fadeOutOne {
+  opacity:0;
+}
+
+.fadeInOne {
+  opacity:1;
+  transition: opacity 1s;
+  width: 0px;
+}
+
+.fadeInTwo {
+  opacity:1;
+  transition: opacity 1s;
+  width: 0px;
+}
+
+.SectionTwo {
+  /* margin-top: 100vh; */
+  width: 100vw;
+  height: 100vh;
+  background-color: violet;
+}
