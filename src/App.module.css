@@ -30,6 +30,18 @@
   font-weight: 700;
   color: white;
   filter: brightness(90%);
+  text-shadow: 1px 1px #373741;
+}
+
+.MainImageText p {
+  font-size: 2vw;
+  font-weight: 600;
+  color: white;
+  filter: brightness(90%);
+  width: 55vw;
+  margin-left: -10vw;
+  text-align: center;
+  text-shadow: 1px 1px #373741;
 }
 
 .fadeOutOne {
@@ -42,10 +54,53 @@
   width: 0px;
 }
 
-.fadeInTwo {
+.TopButtons {
+  display: inline-block;
+}
+
+.TopButtonsButtonNoShow {
+  opacity:0;
+}
+
+
+.TopButtonsButtonShow {
+  height: '50px';
+  background-color: 'transparent';
+  border-color: "transparent";
+  top: 2vh;
+  position: absolute;
+  cursor: pointer;
+  filter: brightness(90%);
+
   opacity:1;
   transition: opacity 1s;
   width: 0px;
+}
+
+.TopButtonsButtonShow:hover {
+  filter: brightness(100%);
+}
+
+.TopButtonsButtonShow:focus {
+  outline: none;
+}
+
+.DownButton {
+  height: '50px';
+  background-color: 'transparent';
+  border-color: "transparent";
+  margin-top: calc(100vh - 60px);;
+  margin-left: 50vw;
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.DownButton:hover {
+  filter: brightness(100%);
+}
+
+.DownButton:focus {
+  outline: none;
 }
 
 .SectionTwo {
