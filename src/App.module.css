@@ -266,7 +266,7 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
 
 @media screen and (max-width: 1500px) {
   .SectionOne {
-    background-size: auto 100%;
+    background-size: 100% auto;
   }
 
   .MyInfoSectionText {
@@ -274,8 +274,15 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
     line-height: 18px;
   }
 
+  .MainImageText {
+    top: 35%; 
+    left: 27%;
+    position: absolute; 
+    display: inline;
+  }
+
   .MainImageText span {
-    font-size: calc(4vw + 8px);
+    font-size: 7vw;
   }
 
   .TopButtons {
@@ -327,7 +334,7 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
   div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
     height: 250%;
     display: grid;
-    grid-template-rows: 20% 0% 6%;
+    grid-template-rows: 12% 0% 6%;
   }
 
   .MyInfoSectionTimelineLeftLeftSide span {
@@ -344,5 +351,9 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
     display: grid;
     grid-template-columns: 100%;
     height: 100%;
+  }
+
+  .DownloadResumeButton {
+    margin-left: 25%;
   }
 }
