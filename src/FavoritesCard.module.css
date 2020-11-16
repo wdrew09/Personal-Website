@@ -1,0 +1,16 @@
+.Main {
+    height: 350px;
+    width: 350px;
+    cursor: pointer;
+    background-size: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+
+.Title {
+    display: flex;
+    align-self: flex-start;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+}
