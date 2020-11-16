@@ -266,7 +266,11 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
 
 @media screen and (max-width: 1500px) {
   .SectionOne {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/tripImage3.JPG);
     background-size: auto 100%;
+    background-position: -0px;
+    background-attachment: scroll;
+    height: 100vh;
   }
 
   .MyInfoSectionText {
