@@ -276,6 +276,8 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
   .MyInfoSectionText {
     font-size: calc(.5vw + 10px);
     line-height: 18px;
+    /* margin-top: 20px; */
+    padding: 5px;
   }
 
   .MainImageText {
