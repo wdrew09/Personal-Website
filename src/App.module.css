@@ -261,10 +261,7 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
   font-style: normal;
 }
 
-
-
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .SectionOne {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/tripImage3.JPG);
     background-size: auto 100%;
@@ -272,6 +269,11 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
     background-attachment: scroll;
     height: 100vh;
   }
+}
+
+
+@media screen and (max-width: 1500px) {
+
 
   .MyInfoSectionText {
     font-size: calc(.5vw + 10px);
