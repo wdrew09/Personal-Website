@@ -13,21 +13,16 @@
 .MainImageText {
   top: 35%; 
   left: 37%;
-  /* width: 100vw; */
   position: absolute; 
   display: inline;
-  /* overflow-x: hidden;  */
-  /* text-align: center; */
 }
 
 .MainImageText span {
-  /* font-size: calc(4vw + 20px); */
   font-size: 4vw;
   font-weight: 700;
   color: white;
   filter: brightness(90%);
   text-shadow: 1px 1px #373741;
-  /* overflow-x: hidden;  */
 }
 
 .fadeOutOne {
@@ -38,7 +33,6 @@
   opacity:1;
   transition: opacity 1s;
   width: 0px;
-  /* width: 50%  */
 }
 
 .TopButtons {
@@ -207,14 +201,12 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
   margin-left: auto;
   margin-right: -33px;
   margin-top: -10px;
-  /* border: 1px #373741 sol id; */
   border-radius: 50%;
   height: 60px;
 }
 
 .SectionThree {
   height: max-content;
-  /* background-color: rgb(0, 179, 146); */
   background-color: rgb(80, 124, 159);
   width: 100vw;
   display: grid;

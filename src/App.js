@@ -166,13 +166,13 @@ const App = props => {
               title={"Space Shooter - js/HTML"}
               picture={shooterImage}
               gif={shooterGif}
-              link={"google.com"}
+              link={"https://github.com/wdrew09/CS316_Shooter"}
             />
             <FavoritesCard
               title={"SAT Solver - Java"}
               picture={satImage}
               gif={satGif}
-              link={"google.com"}
+              link={"https://github.com/wdrew09/SAT_Program"}
             />
             <FavoritesCard
               title={"Personal Website - React"}
@@ -184,19 +184,19 @@ const App = props => {
               title={"Minesweeper - Java"}
               picture={minesweeperImage}
               gif={minesweeperGif}
-              link={"google.com"}
+              link={"https://github.com/wdrew09/Minesweeper"}
             />
             <FavoritesCard
               title={"Entertain My Life - React"}
               picture={practiceWebsiteImage}
               gif={practicelWebsiteGif}
-              link={"google.com"}
+              link={"https://github.com/wdrew09/entertainmylife"}
             />
             <FavoritesCard
               title={"Project Boost - C#"}
               picture={projectBoostImage}
               gif={projectBoostGif}
-              link={"google.com"}
+              link={"https://github.com/wdrew09/Project_Boost"}
             />
           </div>
         </div>
