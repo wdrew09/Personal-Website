@@ -266,7 +266,7 @@ div:nth-child(4) .MyInfoSectionTimelineLeftLeftSide {
 
 @media screen and (max-width: 1500px) {
   .SectionOne {
-    background-size: 100% auto;
+    background-size: auto 100%;
   }
 
   .MyInfoSectionText {
