@@ -96,7 +96,6 @@
     grid-template-columns: 25% 5% 70%;
     width: 100%;
     padding-bottom: 40px;
-    height: 100%;
 }
 
 .TimelineRow > * {
@@ -199,6 +198,7 @@
     }
 
     .TimelineRowMiddle {
+        height: auto;
         margin-top: 0px;
     }
 
