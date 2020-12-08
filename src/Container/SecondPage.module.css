@@ -190,10 +190,12 @@
         display: grid;
         grid-template-columns: 50% 30%;
         height: max-content;
+        padding-bottom: 40px;
+        padding-top: 0px;
     }
 
     .TimelineRow > * {
-        margin: 20px 20px;
+        margin: 8px 20px;
     }
 
     .TimelineRowMiddle {
@@ -224,5 +226,11 @@
 
     .TimelineRowLeft {
         margin-top: 0px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .TimelineRow {
+        padding-bottom: 60px;
     }
   }
