@@ -182,7 +182,7 @@
     .TimelineRow {
         display: grid;
         grid-template-columns: 50% 30%;
-        height: auto;
+        height: max-content;
     }
 
     .TimelineRow > * {
