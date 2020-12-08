@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './SecondPage.module.css';
 
 import profileImage from '../Images/profileImage.png'

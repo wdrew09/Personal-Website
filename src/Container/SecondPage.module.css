@@ -192,7 +192,6 @@
         height: max-content;
         padding-bottom: 40px;
         padding-top: 0px;
-        overflow: auto
     }
 
     .TimelineRow > * {
@@ -214,7 +213,6 @@
 
     .TimelineRowLeft {
         margin-top: 5px;
-        overflow: auto
     }
 
     .TimelineRowRight {
