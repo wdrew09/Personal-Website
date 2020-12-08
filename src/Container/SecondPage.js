@@ -14,7 +14,7 @@ const SecondPage = props => {
             <div className={styles.WidthContainer}>
 
                 <div className={styles.MyInfoSection}>
-                    <img src={profileImage} className={styles.ProfileImage} alt="image" resizeMode="cover" />
+                    <img src={profileImage} className={styles.ProfileImage} alt="Profile"/>
                     <div>
                         <span className={styles.PrimaryText}>Andrew Wilson</span>
                         <span className={styles.SecondaryText}>Software Engineer in Lexington, KY</span>
@@ -50,7 +50,7 @@ const SecondPage = props => {
                         </div>
                         <div className={styles.TimelineRowMiddle}>
                             <div className={styles.TimelineRowMiddleInner}>
-                                <img src={UKLogo} alt="image" resizeMode="cover" />
+                                <img src={UKLogo} alt="Uk Logo"/>
                             </div>
                         </div>
                         <div className={styles.TimelineRowRight}>
@@ -69,7 +69,7 @@ const SecondPage = props => {
                         </div>
                         <div className={styles.TimelineRowMiddle}>
                             <div className={styles.TimelineRowMiddleInner} style={{ height: '100%', maxHeight: "100px" }}>
-                                <img src={EZTurnLogo} alt="image" resizeMode="cover" />
+                                <img src={EZTurnLogo} alt="EZ-Turn Logo"/>
                             </div>
                         </div>
                         <div className={styles.TimelineRowRight}>

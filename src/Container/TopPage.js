@@ -39,10 +39,10 @@ const TopPage = props => {
         <div className={styles.SectionOne}>
 
             <span className={styles.TopButtons}>
-                <a href="https://www.linkedin.com/in/andrew-wilson-98968a1bb" target="_blank">
+                <a href="https://www.linkedin.com/in/andrew-wilson-98968a1bb" target="_blank" rel="noreferrer">
                     <button className={styles.TopButtonsButton}><FontAwesomeIcon color="#373741" icon={faLinkedin} size='3x' /></button>
                 </a>
-                <a href="https://github.com/wdrew09" target="_blank">
+                <a href="https://github.com/wdrew09" target="_blank" rel="noreferrer">
                     <button className={styles.TopButtonsButton}><FontAwesomeIcon color="#373741" icon={faGithub} size='3x' /></button>
                 </a>
                 <a href="mailto:awi279@uky.edu">

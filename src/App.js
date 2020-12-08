@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import TopPage from './Container/TopPage';
 import SecondPage from './Container/SecondPage';

@@ -15,7 +15,7 @@ const FavoritesCard = props => {
 
 
     return (
-        <a href={link} target="_blank" style={{textDecoration: "none", margin: "50px"}}>
+        <a href={link} target="_blank" rel="noreferrer" style={{textDecoration: "none", margin: "50px"}}>
             <button
                 className={styles.Main}
                 onMouseEnter={() => setIsShown(true)}
