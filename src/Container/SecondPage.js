@@ -18,7 +18,7 @@ const SecondPage = props => {
                     <div>
                         <span className={styles.PrimaryText}>Andrew Wilson</span>
                         <span className={styles.SecondaryText}>Software Engineer in Lexington, KY</span>
-                        <a href={resume} download="Andrew_Wilson_Resume"><button className={styles.DownloadResumeButton}>Download Resume</button></a>
+                        <a href={resume} download="Andrew_Wilson_Resume" style={{cursor: 'default'}}><button className={styles.DownloadResumeButton}>Download Resume</button></a>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const SecondPage = props => {
                             <span className={styles.TertiaryText}>January 2019 - May 2020</span>
                         </div>
                         <div className={styles.TimelineRowMiddle}>
-                            <div className={styles.TimelineRowMiddleInner} style={{ height: '100%' }}>
+                            <div className={styles.TimelineRowMiddleInner} style={{ height: '100%', maxHeight: "100px" }}>
                                 <img src={EZTurnLogo} alt="image" resizeMode="cover" />
                             </div>
                         </div>

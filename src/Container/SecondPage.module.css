@@ -111,17 +111,16 @@
 }
 
 .TimelineRowMiddle {
-    position: relative;
     margin-top: 0px;
     width: 100%;
     height: 100%;
 }
 
 .TimelineRowMiddleInner {
-    position: relative;
     margin-left: 35%;
     border-left: 3px solid gray;
-    height: 150%;
+    height: calc(100% + 40px);
+    max-height: 200px;
 }
 
 .TimelineRowMiddle img {
@@ -148,6 +147,14 @@
     }
     .TertiaryText {
         line-height: 25px;
+    }
+
+    .TimelineRowRight {
+        margin-top: 0px;
+    }
+
+    .TimelineRowLeft {
+        margin-top: 0px;
     }
   }
 
@@ -209,5 +216,13 @@
     .TimelineRowRight {
         margin-top: 0px;
         width: 175%;
+    }
+
+    .TimelineRowRight {
+        margin-top: 0px;
+    }
+
+    .TimelineRowLeft {
+        margin-top: 0px;
     }
   }
