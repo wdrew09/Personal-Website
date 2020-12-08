@@ -87,7 +87,7 @@
     flex-direction: column;
     width: 100%;
     align-self: center;
-    height: 100%;
+    height: max-content;
   }
 
 .TimelineRow {
