@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import profileImage from './Images/profileImage.png'
 import styles from './FavoritesCard.module.css';
 
 const FavoritesCard = props => {

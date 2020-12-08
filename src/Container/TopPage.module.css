@@ -1,0 +1,134 @@
+.SectionOne {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/tripImage3.JPG);
+    background-size: cover;
+    background-position: -0px;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+}
+
+.TopButtons {
+    top: 2vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+.TopButtonsButton {
+    cursor: pointer;
+    filter: brightness(90%);
+    margin-left: 35px;
+    background-color: transparent;
+    border-color: transparent ;
+  }
+  
+.TopButtons a:last-child {
+    margin: auto 40px auto auto;
+    align-self: flex-end;
+}
+
+.TopButtons a:last-child button {
+    height: 45px;
+    width: 120px;
+    background-color: rgb(25, 175, 340);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.TopButtons a:last-child button:hover {
+    filter: brightness(115%);
+}
+  
+.TopButtons a:last-child button:focus {
+    outline: none;
+}
+
+.MainImageText {
+    position: relative; 
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.MainImageText span {
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    filter: brightness(90%);
+}
+  
+.fadeOut {
+    opacity:0;
+}
+  
+.fadeIn {
+    opacity:1;
+    transition: opacity 1s;
+    width: 0px;
+}
+
+.DownButton {
+    width: max-content;
+    position: absolute;
+    cursor: pointer;
+    filter: brightness(90%);
+    left: calc(50% - 25px);
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .DownButton button {
+    width: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .DownButton:hover {
+    filter: brightness(100%);
+  }
+  
+  .DownButton button:focus {
+    outline: none;
+  } 
+
+  @media screen and (max-width: 1200px) {
+    .TopButtonsButton {
+        margin-left: 25px;
+    }
+
+    .TopButtons a:last-child {
+        margin: auto 25px auto auto;
+        align-self: flex-end;
+    }
+
+    .TopButtons a:last-child button {
+        height: 40px;
+        width: 100px;
+        background-color: rgb(25, 175, 340);
+        border: none;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .MainImageText {
+        padding-bottom: 175px;
+     }
+
+    .MainImageText span {
+        font-size: 6vw;
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+    .TopButtons {
+        position: absolute;
+    }
+
+}

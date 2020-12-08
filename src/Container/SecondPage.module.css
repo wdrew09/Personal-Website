@@ -1,0 +1,218 @@
+.SectionTwo {
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+  }
+
+  .WidthContainer {
+      max-width: 1600px;
+      min-width: 100vw;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .ProfileImage {
+    height: 20vw;
+    min-height: 100px;
+    max-height: 200px;
+    width: auto;
+    border-radius: 50%;
+    border: 1px #e7e7e7 solid;
+    padding-bottom: 10px;
+  }
+
+  .MyInfoSection {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    align-self: center;
+  }
+
+  .MyInfoSection > * {
+      margin: auto 200px;
+  }
+
+  .MyInfoSection div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .PrimaryText {
+    font-size: calc(2.4vw + 10px);
+    font-weight: 700;
+    color: #373741;
+  }
+  
+  .SecondaryText {
+    font-size: calc(1.2vw + 10px);
+    font-weight: 700;
+    color: #373741;
+    width: 100%;
+  }
+
+  .TertiaryText {
+    font-size: calc(.5vw + 10px);
+    line-height: 30px;
+    color: #373741;
+  }
+
+  .DownloadResumeButton {
+    width: 200px;
+    font-size: 20px;
+    border: 1px #373741 solid;
+    color: #373741;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: transparent;
+  }
+  
+  .DownloadResumeButton:hover {
+    filter: brightness(113%);
+    background-color: #ececfc;
+  }
+  
+  .DownloadResumeButton:focus {
+    outline: none;
+  }
+
+  .Timeline {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+  }
+
+.TimelineRow {
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 5% 70%;
+    width: 100%;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+.TimelineRow > * {
+    margin: auto 200px;
+}
+
+.TimelineRowLeft {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.TimelineRowMiddle {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.TimelineRowMiddleInner {
+    position: relative;
+    margin-left: 35%;
+    border-left: 3px solid gray;
+    height: 150%;
+}
+
+.TimelineRowMiddle img {
+    border-radius: 50%;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+
+  .TimelineRowRight {
+      margin-top: 0px;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .MyInfoSection > * {
+        margin: auto 100px;
+    }
+    .TimelineRow > * {
+        margin: auto 100px;
+    }
+    .TimelineRow {
+        grid-template-columns: 20% 10% 70%;
+        height: auto;
+    }
+    .TertiaryText {
+        line-height: 25px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .ProfileImage {
+        min-height: 80px;
+        padding: 0px;
+      }
+
+    .DownloadResumeButton {
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .TimelineRowMiddleInner {
+        margin-left: 0%;
+    }
+
+    .MyInfoSection > * {
+        margin: auto 20px;
+    }
+
+    .TimelineRowMiddle img {
+        height: 60px;
+      }
+
+    .TertiaryText {
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .TimelineRow {
+        /* display: flex;
+        flex-direction: column;
+        flex: 0 50%; */
+        display: grid;
+        grid-template-columns: 50% 30%;
+        /* grid-template-columns: 25% 5% 70%; */
+        height: auto;
+    }
+
+    .TimelineRow > * {
+        /* flex: 0 50%; */
+        margin: 20px 20px;
+    }
+
+    .TimelineRowMiddle {
+        margin-top: 0px;
+    }
+
+    .TimelineRowMiddleInner {
+        border-left: 0px solid gray;
+    }
+    
+    .TimelineRowMiddle img {
+        height: 50px;
+        margin-left: 0px;
+      }
+
+    .TimelineRowLeft {
+        margin-top: 5px;
+    }
+
+    .TimelineRowRight {
+        margin-top: 0px;
+        width: 175%;
+    }
+  }

@@ -1,0 +1,23 @@
+.Footer {
+    height: 65px;
+    width: 100%;
+    background-color: #373741;
+    display: flex;
+  }
+  
+  .Footer span {
+    margin: auto;
+    font-size: calc(1vw + 2px);
+    color: white;
+  }
+  
+  .Footer span em {
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .Footer span {
+        font-size: calc(1vw + 5px);
+      }
+  }
