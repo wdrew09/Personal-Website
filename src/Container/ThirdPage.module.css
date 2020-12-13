@@ -1,11 +1,11 @@
 .SectionThree {
     height: max-content;
     min-height: 100vh;
-    background-color: rgb(80, 124, 159);
+    background-color: #507c9f;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
   }
   
   .SectionThreeTitle {
@@ -14,10 +14,10 @@
     font-size: calc(3vw + 10px);
     font-weight: 700;
     text-shadow: 1px 1px #373741 ;
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
   
-  .FavoritesCards {
+  .ProjectCards {
     align-self: center;
     margin-top: 5vh;
     width: 85%;

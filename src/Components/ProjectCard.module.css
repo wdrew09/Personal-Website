@@ -1,0 +1,81 @@
+.Main {
+    height: max-content;
+    background-color: white;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    margin: 50px;
+}
+
+.Main:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.35)
+}
+
+.Title {
+    margin-top: 8px;
+    font-size: 26px;
+    color: var(--font-color);
+    font-weight: 500;
+    font-family: var(--font);  
+    margin-bottom: 0px;
+}
+
+.String {
+    margin-top: 4px;
+    font-size: 16px;
+    color: var(--font-color);
+    font-weight: 500;
+    font-family: var(--font);  
+}
+
+.Image {
+    margin: auto;
+    display: flex;
+    height: auto;
+    max-height: 350px;
+    width: 100%;
+}
+
+.Bar {
+    width: 300px;
+    background-color: gray;
+    height: 1px;
+    border: none;
+}
+
+.CardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Links button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #373741;
+    font-size: 20px;
+    align-self: center;
+    outline: none;
+}
+
+.Links button:hover {
+    color: #507c9f;
+}
+
+@media screen and (max-width: 400px) {
+    .Main {
+        width: 300px;
+        margin: 25px auto;
+    }
+
+    .Bar {
+        width: 250px;
+    }
+}
