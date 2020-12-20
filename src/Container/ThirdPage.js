@@ -53,7 +53,7 @@ const ThirdPage = props => {
                     about={"Built a website using React to display my personal portfolio (soon to be updated)."}
                     picture={personalWebsiteImage}
                     githubLink={"https://github.com/wdrew09/Personal-Website"}
-                    link={"https://andrewpwilson.com"}
+                    // link={"https://andrewpwilson.com"}
                 />
                 {/* <ProjectCard
                     title={"Minesweeper - Java"}

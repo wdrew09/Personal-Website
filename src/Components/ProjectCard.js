@@ -22,12 +22,12 @@ const ListViewItem = props => {
                 <div className={styles.Links}>
                     {link ?
                         <span>
-                            <a target="_blank" href={githubLink}><button>Github Link</button></a>
+                            <a target="_blank" href={githubLink}><button>View On Github</button></a>
                             -
-                            <a target="_blank" href={link}><button>Website Link</button></a>
+                            <a target="_blank" href={link}><button>View Website</button></a>
                         </span>
                         :
-                        <span><a target="_blank" href={githubLink}><button>Github Link</button></a></span>
+                        <span><a target="_blank" href={githubLink}><button>View On Github</button></a></span>
                     }
                 </div>
             </div>
