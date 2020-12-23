@@ -23,6 +23,8 @@ import projectBoostImage from '../Images/Project_Boost_Image.png';
 
 import covidInPerspectiveImage from '../Images/CovidInPerspective.png'
 
+import speakYourMindImage from '../Images/Speak-Your-Mind.png'
+
 const ThirdPage = props => {
 
     return (
@@ -36,11 +38,18 @@ const ThirdPage = props => {
                     githubLink={"https://github.com/wdrew09/covid-in-perspective"}
                     link={"https://wdrew09.github.io/covid-in-perspective/"}
                 />
-                <ProjectCard
+                {/* <ProjectCard
                     title={"Space Shooter"}
                     about={"Using HTML and Javascript I built a small shoter game where projectiles come towards the player and they either must dodge them or shoot them."}
                     picture={shooterImage}
                     githubLink={"https://github.com/wdrew09/CS316_Shooter"}
+                /> */}
+                <ProjectCard
+                    title={"Speak Your mind"}
+                    about={"Using the MERN tech stack (MongoDB, Express.js, React, Node.js), along with Bootstrap and Redux, I was able to create a simple full-stack social media application"}
+                    picture={speakYourMindImage}
+                    githubLink={"https://github.com/wdrew09/speak-your-mind"}
+                    link={"https://speak-your-mind.herokuapp.com"}
                 />
                 <ProjectCard
                     title={"SAT Solver"}
