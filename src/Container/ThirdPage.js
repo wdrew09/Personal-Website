@@ -46,7 +46,7 @@ const ThirdPage = props => {
                 /> */}
                 <ProjectCard
                     title={"Speak Your mind"}
-                    about={"Using the MERN tech stack (MongoDB, Express.js, React, Node.js), along with Bootstrap and Redux, I was able to create a simple full-stack social media application"}
+                    about={"Using the MERN tech stack (MongoDB, Express.js, React, Node.js), along with Bootstrap and Redux, I was able to create a simple full-stack social media application. (Note: This site is using free hosting services from Heroku and therefore might take a few seconds to open.)"}
                     picture={speakYourMindImage}
                     githubLink={"https://github.com/wdrew09/speak-your-mind"}
                     link={"https://speak-your-mind.herokuapp.com"}
