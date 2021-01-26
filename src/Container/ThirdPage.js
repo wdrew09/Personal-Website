@@ -25,6 +25,8 @@ import covidInPerspectiveImage from '../Images/CovidInPerspective.png'
 
 import speakYourMindImage from '../Images/Speak-Your-Mind.png'
 
+import twitterBotImage from '../Images/twitter_bot_image.png'
+
 const ThirdPage = props => {
 
     return (
@@ -81,6 +83,13 @@ const ThirdPage = props => {
                     about={"Using C# and the Unity engine I was able to build a small 2.5D game where the player must navigate their rocket to its destination."}
                     picture={projectBoostImage}
                     githubLink={"https://github.com/wdrew09/Project_Boost"}
+                />
+                <ProjectCard
+                    title={"Storytelling Bot"}
+                    about={"Using Node.js, AWS, and DeepAI's Text Generation program, I built a completely automated Twitter bot that produces and tweets stories from ideas sent via direct message from anyone."}
+                    picture={twitterBotImage}
+                    githubLink={"https://github.com/wdrew09/twitter-story-bot"}
+                    link={"https://twitter.com/story__bot"}
                 />
 
             </div>
